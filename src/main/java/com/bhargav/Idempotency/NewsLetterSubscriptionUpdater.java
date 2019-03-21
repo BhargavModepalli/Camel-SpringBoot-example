@@ -3,6 +3,11 @@ package com.bhargav.Idempotency;
 import org.apache.camel.Exchange;
 import org.springframework.stereotype.Component;
 
+/**
+ * Check if the subscription email is already subscribed or not based on camel DUPLICATE_MESSAGE flag
+ *
+ * @author Bhargav Modepalli
+ */
 @Component
 public class NewsLetterSubscriptionUpdater {
 

@@ -8,6 +8,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 
+/**
+ * NewsLetter rest route which in take the params
+ *
+ * @author Bhargav Modepalli
+ */
 @Component
 public class NewsLetterSubscriberRoute extends RouteBuilder {
 
