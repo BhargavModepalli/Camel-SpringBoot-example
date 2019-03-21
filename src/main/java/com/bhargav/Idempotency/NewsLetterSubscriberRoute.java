@@ -23,7 +23,7 @@ public class NewsLetterSubscriberRoute extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
-            rest("/test")
+            rest("/subscribe")
                     .post()
                     .bindingMode(RestBindingMode.off)
                     .param().name("fname").type(RestParamType.query).description("FirstName").required(true).endParam()
