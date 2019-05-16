@@ -14,7 +14,8 @@ public class RestConfiguration extends RouteBuilder {
                 .port(System.getenv("server.port"))
                 .apiContextPath("/apidocs")
                 .apiProperty("api.title", "Idempotency")
-                .apiProperty("api.version", "1.0.0");
+                .apiProperty("api.version", "1.0.0")
+                .endpointProperty("headerFilterStrategy","defaultHeaderFilter");
 
     }
 }
